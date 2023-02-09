@@ -1,0 +1,40 @@
+{
+    "translation": {
+            "_Comment":"SECTION HOME",
+        "myNameIs": "Olá, meu nome é",
+        "description": "Sou um programador especializado em construir (e ocasionalmente fazer o design) experiências digitais excepcionais. Atualmente, estou focado em construir aplicações web full-stack responsivas.",
+        "resume": "Veja meu curriculo",
+        "cvLink": "1hUaBx5d9faLisTnMUjFPY4QVpnmEKLKu",
+
+            "_Comment2":"SECTION ABOUT",
+        "aboutTitle": "Sobre",
+        "aboutIntro": "Oi. Eu sou Carlos Daniel, prazer em conhecê-lo. Por favor, dê uma olhada ao redor.",
+        "aboutMe": "Eu sou um estudante de Ciência da Computação de 18 anos, atualmente estou no 3º período. Sempre me interessei por computadores e programação. Comecei a aprender um pouco de python quando tinha uns 14 anos, mas me apaixonei mesmo quando comecei a aprender html, css e javascript, porque as coisas eram mais concretas, e eu conseguia um retorno imedito sobre o que eu aprendia e construía, foi sencacional ver que eu poderia criar coisas incríveis. Então resolvi entrar nesse mundo, me tornei programador e comecei o Bacharelado em Ciência da Computação. Desde então, sou apaixonado por construir sites e tudo que enolve programação.",
+
+            "_Comment3":"SECTION SKILLS",
+        "skills": "Habilidades",
+        "theTechnologies":"Essas são as tecnologias que eu trabalhei ou estudei",
+
+            "_Comment4":"SECTION PROJECTS",
+        "projects": "Projetos",
+        "recentWork": "Veja alguns dos meus últimos trabalhos",
+        "passMouseToSee": "Passe o mouse sobre os cartões para ver mais",
+        "clickToSee": "Clique para ver mais",
+        "clickDescription": "Clique aqui para ver a descrição",
+
+            "_Comment5":"SECTION CONTACT",
+        "contact": "Contato",
+        "submitForm": "Preencha o formulário ou me envie um email - carlosdanielf541@gmail.com",
+        "scrollToSee": "Desça para ver minhas redes sociais",
+        "name": "Nome",
+        "message": "Mensagem",
+        "collaborate": "Vamos Colaborar",
+
+        
+            "_Comment6": "description projects",
+        "crudDesc": "Criação de site onde é possível cadastrar pessoas, editar e deletar, o famoso crud. A aplicação foi feita ponta a ponta, desde o front-end usando react, até o back-end criando uma api e banco de dados. Para fazer isso projeto, além de conceitos próprios do React como componentização, também foram utilizadas outras ferramentas, para a construção do back-end/api foi utilizado o express js/node.js, e para o banco de dados foi utilizado o MySql. foi implantado no netfly e o back-end no heroku.",
+        "cafeChat": "Criação de site, imitando whatsapp, onde é possível adicionar chats por e-mail. React js foi usado para construir o front-end e firebase como banco de dados. A biblioteca de componentes estilizados, react-icons, react-hooks-firebase, entre outros , foi muito utilizado neste projeto.",
+        "pokedexDesc": "Projeto Pokédex onde você pode pesquisar pokémon pelo nome ou ID, além de passar por cada pokémon pelo botão. Nesse projeto usamos html, css e javascript. O aprendizado mais importante desse projeto foi aprender a fazer uma api solicitação, foi o primeiro aplicativo que fiz que faz esse tipo de solicitação.",
+        "pomodoroDesc": "Site que implementa a técnica Pomodoro, técnica que auxilia na produtividade e no foco. Este projeto foi construído utilizando html, css e javascript. Neste projeto foram abordados os conceitos de DOM (Document Object Model), eventos DOM, criação de funções, além ao uso da função setInterval."
+    }
+}
