@@ -10,7 +10,7 @@ export const Contact = () => {
         <div className='pb-4'>
           <p className='text-4xl font-mono font-bold inline border-b-4 border-cyan-200 text-white'>{t("contact")}</p>
           <p className='py-4 text-white'>//{t("submitForm")}</p>
-          <p className='text-white md:hidden'>{t("scrollTooSee")}</p>
+          <p className='text-white md:hidden'>{t("scrollToSee")}</p>
         </div>
         
         <input className='p-2 bg-white' type="text" placeholder={t("name")} name='name' />
