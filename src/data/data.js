@@ -2,8 +2,9 @@ import CrudFull from '../assets/projects/crud-fullstack.png';
 import CrudFull2 from '../assets/projects/crud-fullstack2.png';
 import CafeChat from '../assets/projects/chatapp.png';
 import CafeChat2 from '../assets/projects/chatapp2.png';
-import Pokedex from '../assets/projects/pokedex.png'
-import Pomodoro from '../assets/projects/pomodoro.png'
+import Pokedex from '../assets/projects/pokedex.png';
+import Pomodoro from '../assets/projects/pomodoro.png';
+import FoodPeek from '../assets/projects/foodpeek.png'
 
 const HTML = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg";
 const CSS = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
@@ -71,6 +72,21 @@ export const data=[
         github:"https://github.com/carloscurcino/Pomodoro-Timer",
         live:"https://pomodorotimers.com.br",
         description: "pomodoroDesc",
+        stack: [
+            HTML,
+            CSS,
+            JavaScript,
+            GitHub,
+        ],
+    },
+    {
+        id:5,
+        name:"FooD PeeK",
+        image:FoodPeek,
+        altImage:FoodPeek,
+        github:"https://github.com/carloscurcino/FastFood-LandingPage",
+        live:"https://carloscurcino.github.io/FastFood-LandingPage/",
+        description: "foodDesc",
         stack: [
             HTML,
             CSS,
