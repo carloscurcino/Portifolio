@@ -13,16 +13,16 @@ export const About = () => {
             </p>
           </div>
           <div></div>
+        </div>
+        <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
+          <div className="flex flex-col items-center justify-center">
+            <p className='text-4xl text-gray font-bold'>{t("aboutIntro")}</p>
+            <p>{t("aboutMe")}</p>
           </div>
-          <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-            <div className="flex flex-col items-center justify-center">
-              <p className='text-4xl text-gray font-bold'>{t("aboutIntro")}</p>
-              <p>{t("aboutMe")}</p>  
-            </div>
-            <div>
-              <img className='hover:scale-125 duration-500' src={MePortifolio} alt="My photo" />
-            </div>
+          <div>
+            <img className='lg:hover:scale-125 duration-500' src={MePortifolio} alt="My photo" />
           </div>
+        </div>
       </div>
     </div>
   );
