@@ -8,7 +8,7 @@
         "_Comment2": "SECTION ABOUT",
         "aboutTitle": "Sobre",
         "aboutIntro": "Oi. Eu sou Carlos Daniel, prazer em conhecê-lo. Por favor, dê uma olhada ao redor.",
-        "aboutMe": "Eu sou um estudante de Ciência da Computação de 18 anos, atualmente estou no 3º período. Sempre me interessei por computadores e programação. Comecei a aprender um pouco de python quando tinha uns 14 anos, mas me apaixonei mesmo quando comecei a aprender html, css e javascript, porque as coisas eram mais concretas, e eu conseguia um retorno imediato sobre o que eu aprendia e construía, foi sencacional ver que eu poderia criar coisas incríveis. Então resolvi entrar nesse mundo, me tornei programador e comecei o Bacharelado em Ciência da Computação. Desde então, sou apaixonado por construir sites e tudo que envolve programação.",
+        "aboutMe": "Eu sou um estudante de Ciência da Computação de 19 anos, atualmente estou no 3º período. Sempre me interessei por computadores e programação. Comecei a aprender um pouco de python quando tinha uns 14 anos, mas me apaixonei mesmo quando comecei a aprender html, css e javascript, porque as coisas eram mais concretas, e eu conseguia um retorno imediato sobre o que eu aprendia e construía, foi sencacional ver que eu poderia criar coisas incríveis. Então resolvi entrar nesse mundo, me tornei programador e comecei o Bacharelado em Ciência da Computação. Desde então, sou apaixonado por construir sites e tudo que envolve programação.",
         "_Comment3": "SECTION SKILLS",
         "skills": "Habilidades",
         "theTechnologies": "Essas são as tecnologias que eu trabalhei ou estudei",
@@ -30,6 +30,8 @@
         "cafeChat": "Criação de site, imitando whatsapp, onde é possível adicionar chats por e-mail. React js foi usado para construir o front-end e firebase como banco de dados. A biblioteca de componentes estilizados, react-icons, react-hooks-firebase, entre outros , foi muito utilizado neste projeto.",
         "pokedexDesc": "Projeto Pokédex onde você pode pesquisar pokémon pelo nome ou ID, além de passar por cada pokémon pelo botão. Nesse projeto usamos html, css e javascript. O aprendizado mais importante desse projeto foi aprender a fazer uma api solicitação, foi o primeiro aplicativo que fiz que faz esse tipo de solicitação.",
         "pomodoroDesc": "Site que implementa a técnica Pomodoro, técnica que auxilia na produtividade e no foco. Este projeto foi construído utilizando html, css e javascript. Neste projeto foram abordados os conceitos de DOM (Document Object Model), eventos DOM, criação de funções, além ao uso da função setInterval.",
-        "foodDesc": "Landing page feita imitando sites de fast food. Nesse projeto pratiquei minhas habilidades com css, e testei coisas novas. É um projeto simples mas que é bem trabalhado, sendo totalmente responsivo"
+        "foodDesc": "Landing page feita imitando sites de fast food. Nesse projeto pratiquei minhas habilidades com css, e testei coisas novas. É um projeto simples mas que é bem trabalhado, sendo totalmente responsivo",
+        "ranchoDesc": "Projeto freelancer realizado para divulgação de um Rancho. Consiste em uma landing page, feita com nextjs, onde utilizo do conceito de componentes. Além disso nesse projeto utilizei da api do instagram do meta para mostrar as últimas publicações do rancho.",
+        "benserDesc": "Neste projeto me tornei um dev fullstack junior na empresa junior Code Tower do IFG. Participei do desenvolvimento de pequenas funcionalidades no projeto. No entanto pude me desenvolver bastante como programador, tive oportunidade de mexer tanto no frontend quanto no backend do projeto. "
     }
 }

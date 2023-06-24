@@ -5,6 +5,10 @@ import CafeChat2 from '../assets/projects/chatapp2.png';
 import Pokedex from '../assets/projects/pokedex.png';
 import Pomodoro from '../assets/projects/pomodoro.png';
 import FoodPeek from '../assets/projects/foodpeek.png'
+import GrupoBenser from '../assets/projects/grupobenser.png'
+import GrupoBenser2 from '../assets/projects/grupobenser2.png'
+import Rancho from '../assets/projects/rancho.png'
+import Rancho2 from '../assets/projects/rancho2.png'
 
 const HTML = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg";
 const CSS = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
@@ -19,15 +23,20 @@ const Node = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-o
 const Postgresql = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg";
 const Tailwind = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
 const MYSQL = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg";
+import Next from '../assets/nextjs.png'
+import Django from '../assets/django.png'
+const Adonis = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/adonisjs/adonisjs-original.svg"
+const Docker = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg"
 
-export const data=[
+
+export const data = [
     {
-        id:1,
-        name:"CRUD Fullstack",
-        image:CrudFull,
-        altImage:CrudFull2,
-        github:"https://github.com/carloscurcino/CRUD-REACT-FULLSTACK",
-        live:"https://crudreactfullstack.netlify.app",
+        id: 1,
+        name: "CRUD Fullstack",
+        image: CrudFull,
+        altImage: CrudFull2,
+        github: "https://github.com/carloscurcino/CRUD-REACT-FULLSTACK",
+        live: "https://crudreactfullstack.netlify.app",
         description: "crudDesc",
         stack: [
             ReactImg,
@@ -37,12 +46,12 @@ export const data=[
         ],
     },
     {
-        id:2,
-        name:"Café Chat WebApp",
-        image:CafeChat,
+        id: 2,
+        name: "Café Chat WebApp",
+        image: CafeChat,
         altImage: CafeChat2,
-        github:"https://github.com/carloscurcino/CafeChat-REACT",
-        live:"https://cafechat.netlify.app",
+        github: "https://github.com/carloscurcino/CafeChat-REACT",
+        live: "https://cafechat.netlify.app",
         description: "cafeChat",
         stack: [
             ReactImg,
@@ -50,12 +59,12 @@ export const data=[
         ],
     },
     {
-        id:3,
-        name:"Pokedex",
-        image:Pokedex,
-        altImage:Pokedex,
-        github:"https://github.com/carloscurcino/Pokedex",
-        live:"https://carloscurcino.github.io/Pokedex/",
+        id: 3,
+        name: "Pokedex",
+        image: Pokedex,
+        altImage: Pokedex,
+        github: "https://github.com/carloscurcino/Pokedex",
+        live: "https://carloscurcino.github.io/Pokedex/",
         description: "pokedexDesc",
         stack: [
             HTML,
@@ -65,12 +74,12 @@ export const data=[
         ],
     },
     {
-        id:4,
-        name:"Pomodoro Timer",
-        image:Pomodoro,
-        altImage:Pomodoro,
-        github:"https://github.com/carloscurcino/Pomodoro-Timer",
-        live:"https://pomodorotimers.com.br",
+        id: 4,
+        name: "Pomodoro Timer",
+        image: Pomodoro,
+        altImage: Pomodoro,
+        github: "https://github.com/carloscurcino/Pomodoro-Timer",
+        live: "https://pomodorotimers.com.br",
         description: "pomodoroDesc",
         stack: [
             HTML,
@@ -80,12 +89,12 @@ export const data=[
         ],
     },
     {
-        id:5,
-        name:"FooD PeeK",
-        image:FoodPeek,
-        altImage:FoodPeek,
-        github:"https://github.com/carloscurcino/FastFood-LandingPage",
-        live:"https://carloscurcino.github.io/FastFood-LandingPage/",
+        id: 5,
+        name: "FooD PeeK",
+        image: FoodPeek,
+        altImage: FoodPeek,
+        github: "https://github.com/carloscurcino/FastFood-LandingPage",
+        live: "https://carloscurcino.github.io/FastFood-LandingPage/",
         description: "foodDesc",
         stack: [
             HTML,
@@ -94,5 +103,32 @@ export const data=[
             GitHub,
         ],
     },
-
+    {
+        id: 6,
+        name: "Rancho",
+        image: Rancho,
+        altImage: Rancho2,
+        github: "",
+        live: "https://ranchodivinoespiritosanto.com",
+        description: "ranchoDesc",
+        stack: [
+            Next,
+            Tailwind,
+            GitHub
+        ]
+    },
+    {
+        id: 7,
+        name: "Grupo Benser",
+        image: GrupoBenser,
+        altImage: GrupoBenser2,
+        github: "",
+        live: "https://grupobenser.com",
+        description: "benserDesc",
+        stack: [
+            Adonis,
+            Docker,
+            GitHub
+        ]
+    },
 ]
