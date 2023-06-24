@@ -30,36 +30,9 @@ const Docker = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker
 
 
 export const data = [
+
     {
         id: 1,
-        name: "CRUD Fullstack",
-        image: CrudFull,
-        altImage: CrudFull2,
-        github: "https://github.com/carloscurcino/CRUD-REACT-FULLSTACK",
-        live: "https://crudreactfullstack.netlify.app",
-        description: "crudDesc",
-        stack: [
-            ReactImg,
-            Node,
-            MYSQL,
-            GitHub,
-        ],
-    },
-    {
-        id: 2,
-        name: "Café Chat WebApp",
-        image: CafeChat,
-        altImage: CafeChat2,
-        github: "https://github.com/carloscurcino/CafeChat-REACT",
-        live: "https://cafechat.netlify.app",
-        description: "cafeChat",
-        stack: [
-            ReactImg,
-            GitHub,
-        ],
-    },
-    {
-        id: 3,
         name: "Pokedex",
         image: Pokedex,
         altImage: Pokedex,
@@ -74,7 +47,7 @@ export const data = [
         ],
     },
     {
-        id: 4,
+        id: 2,
         name: "Pomodoro Timer",
         image: Pomodoro,
         altImage: Pomodoro,
@@ -85,6 +58,34 @@ export const data = [
             HTML,
             CSS,
             JavaScript,
+            GitHub,
+        ],
+    },
+    {
+        id: 3,
+        name: "Café Chat WebApp",
+        image: CafeChat,
+        altImage: CafeChat2,
+        github: "https://github.com/carloscurcino/CafeChat-REACT",
+        live: "https://cafechat.netlify.app",
+        description: "cafeChat",
+        stack: [
+            ReactImg,
+            GitHub,
+        ],
+    },
+    {
+        id: 4,
+        name: "CRUD Fullstack",
+        image: CrudFull,
+        altImage: CrudFull2,
+        github: "https://github.com/carloscurcino/CRUD-REACT-FULLSTACK",
+        live: "https://crudreactfullstack.netlify.app",
+        description: "crudDesc",
+        stack: [
+            ReactImg,
+            Node,
+            MYSQL,
             GitHub,
         ],
     },
