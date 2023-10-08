@@ -52,7 +52,7 @@ export const data = [
         image: Pomodoro,
         altImage: Pomodoro,
         github: "https://github.com/carloscurcino/Pomodoro-Timer",
-        live: "https://pomodorotimers.com.br",
+        live: "https://carloscurcino.github.io/Pomodoro-Timer/",
         description: "pomodoroDesc",
         stack: [
             HTML,
@@ -110,7 +110,7 @@ export const data = [
         image: Rancho,
         altImage: Rancho2,
         github: "",
-        live: "https://ranchodivinoespiritosanto.com",
+        live: "https://ranchodivinoespiritosanto.vercel.app/",
         description: "ranchoDesc",
         stack: [
             Next,
