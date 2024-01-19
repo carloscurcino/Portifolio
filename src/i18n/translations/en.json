@@ -32,6 +32,6 @@
         "pomodoroDesc": "Site that implements the Pomodoro technique, a technique that helps productivity and focus. This project was built using html, css and javascript. In this project, the concepts of DOM (Document Object Model), DOM events, creation of functions, in addition to the use of the setInterval function were used.",
         "foodDesc": "Landing page made imitating fast food websites. In this project I practiced my css skills, and tested new things. It's a simple but well-crafted project, being fully responsive.",
         "ranchoDesc": "Freelance project carried out to publicize a Rancho. It consists of a landing page, made with nextjs, where I use the concept of components. In addition, in this project I used the meta's instagram api to show the latest publications from the ranch.",
-        "benserDesc": "In this project I became a junior fullstack dev in the junior company Code Tower of IFG. I participated in the development of small features in the project. However, I was able to develop a lot as a programmer, I had the opportunity to work with both the frontend and the backend of the project."
+        "benserDesc": "I worked on the project, leading the completion of the project for an institutional website and membership management system. During completion we organized several sprints. In addition, I worked directly programming together with the project team and helping them with execution, mainly on the frontend. In this project we use NextsJS, Java Spring, Postgresql and Docker."
     }
 }

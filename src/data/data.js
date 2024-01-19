@@ -7,6 +7,7 @@ import Pomodoro from '../assets/projects/pomodoro.png';
 import FoodPeek from '../assets/projects/foodpeek.png'
 import GrupoBenser from '../assets/projects/grupobenser.png'
 import GrupoBenser2 from '../assets/projects/grupobenser2.png'
+import Doulas2 from '../assets/projects/doulas2.png'
 import Rancho from '../assets/projects/rancho.png'
 import Rancho2 from '../assets/projects/rancho2.png'
 
@@ -132,4 +133,19 @@ export const data = [
             GitHub
         ]
     },
+    {
+        id: 8,
+        name: "Associação de Doulas de Goiás",
+        image: Doulas2,
+        altImage: Doulas2,
+        github: "",
+        live: "https://doulasui.codetower.com.br",
+        description: "doulasDesc",
+        stack: [
+            Next,
+            Tailwind,
+            Docker,
+            GitHub
+        ]
+    }
 ]
