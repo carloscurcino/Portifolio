@@ -12,21 +12,21 @@ export const Home = () => {
         <h1 className='text-4xl sm:text-7xl font-bold text-white'>Carlos Curcino.</h1>
         <h2 className='text-4xl sm:text-7xl font-bold text-gray'>
           <Typed
-              strings={[
-                "I'm a web developer",
-                "I love programming",
-                "I'll build your website"
-              ]}
-              typeSpeed={150}
-              backSpeed={100}
-              loop
-            />
+            strings={[
+              "I'm a web developer",
+              "I love programming",
+              "I'll build your website"
+            ]}
+            typeSpeed={150}
+            backSpeed={100}
+            loop
+          />
         </h2>
         <p className='text-white py-4 max-w-[700px] font-mono'>{t("description")}</p>
         <div>
-          <a href={`https://drive.google.com/file/d/${t("cvLink")}/view?usp=sharing`} target="_blank"><button className='text-white bg-cyan-400 rounded-lg border-2 border-cyan-200 px-6 py-3 my-2 flex items-center hover:bg-cyan-800 hover:border-cyan-800'>{t("resume")}</button></a>
+          <a href={`${t("cvLink")}`} target="_blank"><button className='text-white bg-cyan-400 rounded-lg border-2 border-cyan-200 px-6 py-3 my-2 flex items-center hover:bg-cyan-800 hover:border-cyan-800'>{t("resume")}</button></a>
         </div>
-        
+
       </div>
     </div>
   )
