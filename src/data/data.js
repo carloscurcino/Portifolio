@@ -111,7 +111,7 @@ export const data = [
         image: Rancho,
         altImage: Rancho2,
         github: "",
-        live: "https://ranchodivinoespiritosanto.vercel.app/",
+        live: "https://ranchoddes.vercel.app/",
         description: "ranchoDesc",
         stack: [
             Next,
