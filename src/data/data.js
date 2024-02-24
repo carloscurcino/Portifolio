@@ -32,23 +32,23 @@ const Docker = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker
 
 export const data = [
 
+    // {
+    //     id: 1,
+    //     name: "Pokedex",
+    //     image: Pokedex,
+    //     altImage: Pokedex,
+    //     github: "https://github.com/carloscurcino/Pokedex",
+    //     live: "https://carloscurcino.github.io/Pokedex/",
+    //     description: "pokedexDesc",
+    //     stack: [
+    //         HTML,
+    //         CSS,
+    //         JavaScript,
+    //         GitHub
+    //     ],
+    // },
     {
         id: 1,
-        name: "Pokedex",
-        image: Pokedex,
-        altImage: Pokedex,
-        github: "https://github.com/carloscurcino/Pokedex",
-        live: "https://carloscurcino.github.io/Pokedex/",
-        description: "pokedexDesc",
-        stack: [
-            HTML,
-            CSS,
-            JavaScript,
-            GitHub
-        ],
-    },
-    {
-        id: 2,
         name: "Pomodoro Timer",
         image: Pomodoro,
         altImage: Pomodoro,
@@ -63,7 +63,7 @@ export const data = [
         ],
     },
     {
-        id: 3,
+        id: 2,
         name: "Café Chat WebApp",
         image: CafeChat,
         altImage: CafeChat2,
@@ -76,7 +76,7 @@ export const data = [
         ],
     },
     {
-        id: 4,
+        id: 3,
         name: "CRUD Fullstack",
         image: CrudFull,
         altImage: CrudFull2,
@@ -91,7 +91,7 @@ export const data = [
         ],
     },
     {
-        id: 5,
+        id: 4,
         name: "FooD PeeK",
         image: FoodPeek,
         altImage: FoodPeek,
@@ -106,7 +106,7 @@ export const data = [
         ],
     },
     {
-        id: 6,
+        id: 5,
         name: "Rancho",
         image: Rancho,
         altImage: Rancho2,
@@ -120,7 +120,7 @@ export const data = [
         ]
     },
     {
-        id: 7,
+        id: 6,
         name: "Grupo Benser",
         image: GrupoBenser,
         altImage: GrupoBenser2,
@@ -134,7 +134,7 @@ export const data = [
         ]
     },
     {
-        id: 8,
+        id: 7,
         name: "Associação de Doulas de Goiás",
         image: Doulas2,
         altImage: Doulas2,
