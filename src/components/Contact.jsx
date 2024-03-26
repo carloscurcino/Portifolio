@@ -12,15 +12,15 @@ export const Contact = () => {
           <p className='py-4 text-white'>//{t("submitForm")}</p>
           <p className='text-white md:hidden'>{t("scrollToSee")}</p>
         </div>
-        
-        <input className='p-2 bg-white' type="text" placeholder={t("name")} name='name' />
-        <input className='my-4 p-2 bg-white' type="email" placeholder='Email' name='email'/>
-        <textarea className='p-2 bg-white' name="message" rows={10} placeholder={t("message")}></textarea>
+
+        <input required className='p-2 bg-white' type="text" placeholder={t("name")} name='name' />
+        <input required className='my-4 p-2 bg-white' type="email" placeholder='Email' name='email' />
+        <textarea required className='p-2 bg-white' name="message" rows={10} placeholder={t("message")}></textarea>
         <button className='text-white border-2 hover:bg-cyan-400 hover:border-cyan-400 px-4 py-3 my-8 mx-auto flex items-center'>{t("collaborate")}</button>
         <ul className='flex justify-center md:hidden'>
-            <li className='flex justify-between items-center text-cyan-200 hover:text-cyan-300'><a href="https://github.com/carloscurcino" target="_blank"><GithubLogo size={30} /></a></li>
-            <li className='flex justify-between items-center text-cyan-200 hover:text-cyan-300'><a href="https://www.linkedin.com/in/carloscurcino/" target="_blank"><LinkedinLogo size={30} /></a></li>
-            <li className='flex justify-between items-center text-cyan-200 hover:text-cyan-300'><a href="https://www.instagram.com/carlos.curcino/" target="_blank"><InstagramLogo size={30} /></a></li>
+          <li className='flex justify-between items-center text-cyan-200 hover:text-cyan-300'><a href="https://github.com/carloscurcino" target="_blank"><GithubLogo size={30} /></a></li>
+          <li className='flex justify-between items-center text-cyan-200 hover:text-cyan-300'><a href="https://www.linkedin.com/in/carloscurcino/" target="_blank"><LinkedinLogo size={30} /></a></li>
+          <li className='flex justify-between items-center text-cyan-200 hover:text-cyan-300'><a href="https://www.instagram.com/carlos.curcino/" target="_blank"><InstagramLogo size={30} /></a></li>
         </ul>
       </form>
     </div>
