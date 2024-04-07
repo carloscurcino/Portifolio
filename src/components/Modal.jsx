@@ -10,7 +10,7 @@ export const Modal = ({ setOpenModal, item }) => {
             {/* Modal Container */}
             <div className="w-[700px] h-[650px] rounded-[12px] bg-white shadow-md flex flex-col ">
                 <div className="flex justify-end">
-                    <X size={25} weight="bold" className="text-[crimson] bg-white rounded-lg mr-2 cursor-pointer fixed -ml-1 mt-1" onClick={() => { setOpenModal(false) }} />
+                    <X size={25} weight="bold" className="text-white bg-[crimson] hover:bg-[#b91133]/80 p-1 rounded-lg mr-2 cursor-pointer fixed -ml-1 mt-1" onClick={() => { setOpenModal(false) }} />
                 </div>
                 {/* Tittle */}
                 <div
