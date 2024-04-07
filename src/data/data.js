@@ -10,10 +10,19 @@ import GrupoBenser2 from '../assets/projects/grupobenser2.png'
 import Doulas2 from '../assets/projects/doulas2.png'
 import Rancho from '../assets/projects/rancho.png'
 import Rancho2 from '../assets/projects/rancho2.png'
+import Viajah from '../assets/projects/viajah.png'
+import Viajah2 from '../assets/projects/viajah2.png'
+import Crypto from '../assets/projects/cryptocoffee.png'
+import Crypto2 from '../assets/projects/cryptocoffee2.png'
+import Etoroks from '../assets/projects/etoroks.png'
+import Etoroks2 from '../assets/projects/etoroks2.png'
+import CodeTower from '../assets/projects/codetower.png'
+import CodeTower2 from '../assets/projects/codetower2.png'
 
 const HTML = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg";
 const CSS = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
 import GitHub from '../assets/github.png';
+import Metamask from '../assets/metamask.png';
 
 
 
@@ -28,6 +37,10 @@ import Next from '../assets/nextjs.png'
 import Django from '../assets/django.png'
 const Adonis = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/adonisjs/adonisjs-original.svg"
 const Docker = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg"
+const Firebase = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg"
+const Graphql = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/graphql/graphql-plain.svg"
+const ReactRouter = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original.svg"
+const Redux = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg"
 
 
 export const data = [
@@ -135,7 +148,7 @@ export const data = [
     },
     {
         id: 7,
-        name: "Associação de Doulas de Goiás",
+        name: "Assoc. de Doulas de GO",
         image: Doulas2,
         altImage: Doulas2,
         github: "",
@@ -145,6 +158,69 @@ export const data = [
             Next,
             Tailwind,
             Docker,
+            GitHub
+        ]
+    },
+    {
+        id: 8,
+        name: "Viajah turismo",
+        image: Viajah,
+        altImage: Viajah2,
+        github: "",
+        live: "https://viajahturismo.com.br",
+        description: "viajahDesc",
+        stack: [
+            Next,
+            Django,
+            Tailwind,
+            Docker,
+            GitHub
+        ]
+    },
+    {
+        id: 9,
+        name: "CryptoCoffee",
+        image: Crypto,
+        altImage: Crypto2,
+        github: "https://github.com/carloscurcino/CryptoCoffee",
+        live: "https://cryptocoffeemarket.vercel.app/",
+        description: "cryptoDesc",
+        stack: [
+            Next,
+            Metamask,
+            ReactRouter,
+            Redux,
+            Tailwind,
+            GitHub
+        ]
+    },
+    {
+        id: 10,
+        name: "Etoroks Sorteios",
+        image: Etoroks,
+        altImage: Etoroks2,
+        github: "",
+        live: "https://etoroks-sorteios.vercel.app/",
+        description: "etoroksDesc",
+        stack: [
+            Next,
+            Firebase,
+            Tailwind,
+            GitHub
+        ]
+    },
+    {
+        id: 11,
+        name: "Code Tower",
+        image: CodeTower,
+        altImage: CodeTower2,
+        github: "",
+        live: "https://codetower.vercel.app/",
+        description: "codeTowerDesc",
+        stack: [
+            Next,
+            Graphql,
+            Tailwind,
             GitHub
         ]
     }
