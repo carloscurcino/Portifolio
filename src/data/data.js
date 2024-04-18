@@ -186,7 +186,7 @@ export const data = [
         live: "https://cryptocoffeemarket.vercel.app/",
         description: "cryptoDesc",
         stack: [
-            Next,
+            ReactImg,
             Metamask,
             ReactRouter,
             Redux,
