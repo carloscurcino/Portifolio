@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import Typed from 'react-typed';
+import { ReactTyped } from 'react-typed';
 
 
 export const Home = () => {
@@ -11,7 +11,7 @@ export const Home = () => {
         <p className='font-mono text-white'>{t("myNameIs")}</p>
         <h1 className='text-4xl sm:text-7xl font-bold text-white'>Carlos Curcino.</h1>
         <h2 className='text-4xl sm:text-7xl font-bold text-gray'>
-          <Typed
+          <ReactTyped
             strings={[
               "I'm a web developer",
               "I love programming",
