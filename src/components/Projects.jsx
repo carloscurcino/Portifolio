@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { data } from '../data/data.js'
 import { Modal } from './Modal.jsx';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 export const Projects = () => {
   const { t } = useTranslation();
@@ -24,6 +25,14 @@ export const Projects = () => {
           <p className='md:hidden'>{t("clickToSee")}</p>
         </div>
 
+        <Tabs defaultValue="account" className="w-[400px]">
+          <TabsList>
+            <TabsTrigger value="web" onClick={() => console.log("web")}>Web</TabsTrigger>
+            <TabsTrigger value="mobile" onClick={() => console.log("mobile")}>Mobile</TabsTrigger>
+          </TabsList>
+          <TabsContent value="web">Chart by price change in the last 30 days</TabsContent>
+          <TabsContent value="mobile">Chart by market capitalization change in the last 30 days</TabsContent>
+        </Tabs>
         {/* container for projects */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
 
