@@ -13,7 +13,7 @@ export const Home = () => {
         <h2 className='text-4xl sm:text-7xl font-bold text-gray'>
           <ReactTyped
             strings={[
-              "I'm a web developer",
+              "I'm a Full-Stack developer",
               "I love programming",
               "I'll build your website"
             ]}
