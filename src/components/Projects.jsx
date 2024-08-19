@@ -15,7 +15,7 @@ export const Projects = () => {
   const project = data;
   //setProject(data);
   return (
-    <div name='projects' className='w-full md:h-screen text-white bg-dark my-20 sm:my-40'>
+    <div name='projects' className='w-full flex-1 text-white bg-dark'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
           <p className='text-4xl font-mono font-bold inline border-b-4 text-white border-cyan-200'>
@@ -26,6 +26,7 @@ export const Projects = () => {
           <p className='md:hidden'>{t("clickToSee")}</p>
         </div>
 
+        {/* container for projects */}
         <Tabs defaultValue="web" className="w-full">
           <TabsList>
             <TabsTrigger value="web" onClick={() => console.log("web")}>Web</TabsTrigger>
@@ -38,7 +39,6 @@ export const Projects = () => {
             <ProjectsGrid project={dataMobile} />
           </TabsContent>
         </Tabs>
-        {/* container for projects */}
       </div>
     </div>
   );
