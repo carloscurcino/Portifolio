@@ -44,7 +44,6 @@ const Redux = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/r
 
 
 export const data = [
-
     // {
     //     id: 1,
     //     name: "Pokedex",
@@ -224,4 +223,67 @@ export const data = [
             GitHub
         ]
     }
+]
+
+export const dataMobile = [
+    {
+        id: 1,
+        name: "Isalud",
+        image: Pomodoro,
+        altImage: Pomodoro,
+        github: "https://github.com/carloscurcino/Pomodoro-Timer",
+        live: "https://carloscurcino.github.io/Pomodoro-Timer/",
+        description: "pomodoroDesc",
+        stack: [
+            HTML,
+            CSS,
+            JavaScript,
+            GitHub,
+        ],
+    }, {
+        id: 2,
+        name: "ERP Conte Tecnologia",
+        image: Pomodoro,
+        altImage: Pomodoro,
+        github: "https://github.com/carloscurcino/Pomodoro-Timer",
+        live: "https://carloscurcino.github.io/Pomodoro-Timer/",
+        description: "pomodoroDesc",
+        stack: [
+            HTML,
+            CSS,
+            JavaScript,
+            GitHub,
+        ],
+    },
+    {
+        id: 3,
+        name: "PDV Conte",
+        image: Pomodoro,
+        altImage: Pomodoro,
+        github: "https://github.com/carloscurcino/Pomodoro-Timer",
+        live: "https://carloscurcino.github.io/Pomodoro-Timer/",
+        description: "pomodoroDesc",
+        stack: [
+            HTML,
+            CSS,
+            JavaScript,
+            GitHub,
+        ],
+    },
+
+    {
+        id: 4,
+        name: "viaM",
+        image: Pomodoro,
+        altImage: Pomodoro,
+        github: "https://github.com/carloscurcino/Pomodoro-Timer",
+        live: "https://carloscurcino.github.io/Pomodoro-Timer/",
+        description: "pomodoroDesc",
+        stack: [
+            HTML,
+            CSS,
+            JavaScript,
+            GitHub,
+        ],
+    },
 ]
