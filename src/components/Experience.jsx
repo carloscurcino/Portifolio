@@ -17,7 +17,7 @@ export const Experience = () => {
 
                 <div className=''>
                     {workExperience.toReversed().map((work) => (
-                        <div className='max-w-[1000px] my-8 mx-auto p-4 rounded-lg hover:bg-black/20 hover:border-2 hover:border-cyan-400/20'>
+                        <div className='max-w-[1000px] my-8 mx-auto p-4 rounded-xl hover:bg-black/20 hover:border-2 hover:border-cyan-400/20'>
                             {/* Card */}
                             <div className='flex items-center gap-4'>
                                 {/* <img className='w-16 h-16 rounded-full' src='https://via.placeholder.com/150' alt='Company Logo' /> */}
