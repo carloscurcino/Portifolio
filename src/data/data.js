@@ -233,7 +233,7 @@ export const dataMobile = [
         altImage: Pomodoro,
         github: "https://github.com/carloscurcino/Pomodoro-Timer",
         live: "https://carloscurcino.github.io/Pomodoro-Timer/",
-        description: "pomodoroDesc",
+        description: "isaludDesc",
         stack: [
             HTML,
             CSS,
@@ -247,7 +247,7 @@ export const dataMobile = [
         altImage: Pomodoro,
         github: "https://github.com/carloscurcino/Pomodoro-Timer",
         live: "https://carloscurcino.github.io/Pomodoro-Timer/",
-        description: "pomodoroDesc",
+        description: "erpconteDesc",
         stack: [
             HTML,
             CSS,
@@ -262,7 +262,7 @@ export const dataMobile = [
         altImage: Pomodoro,
         github: "https://github.com/carloscurcino/Pomodoro-Timer",
         live: "https://carloscurcino.github.io/Pomodoro-Timer/",
-        description: "pomodoroDesc",
+        description: "pdvconteDesc",
         stack: [
             HTML,
             CSS,
@@ -278,7 +278,7 @@ export const dataMobile = [
         altImage: Pomodoro,
         github: "https://github.com/carloscurcino/Pomodoro-Timer",
         live: "https://carloscurcino.github.io/Pomodoro-Timer/",
-        description: "pomodoroDesc",
+        description: "viamDesc",
         stack: [
             HTML,
             CSS,
@@ -286,4 +286,37 @@ export const dataMobile = [
             GitHub,
         ],
     },
+]
+
+export const dataWork = [
+    {
+        // id: 1,
+        image: "https://codetower.com.br/_next/image?url=%2Flogo.png&w=1920&q=75",
+        companyName: "Code Tower EJ",
+        startDate: "2022",
+        finalDate: "2023",
+        position: "Diretor de Projetos",
+        description: "codetowerWorkDesc",
+        stack: [
+            HTML,
+            CSS,
+            JavaScript,
+            GitHub,
+        ],
+    },
+    {
+        // id: 1,
+        image: "https://contetecnologia.com.br/imgs/logoescura.png",
+        companyName: "Conte Tecnologia",
+        startDate: "2023",
+        finalDate: "",
+        position: "Desenvolvedor React-Native",
+        description: "conteWorkDesc",
+        stack: [
+            HTML,
+            CSS,
+            JavaScript,
+            GitHub,
+        ],
+    }
 ]

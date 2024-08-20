@@ -2,7 +2,7 @@ import React from 'react'
 import { PlusCircle, Plus } from 'phosphor-react';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Modal } from './Modal.jsx';
+import { Modal } from '../Modal.jsx';
 
 export const ProjectsGrid = ({ project }) => {
   const { t } = useTranslation();

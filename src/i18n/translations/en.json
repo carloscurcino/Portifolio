@@ -18,6 +18,10 @@
         "passMouseToSee": "Pass the mouse over the cards to see more",
         "clickToSee": "Click to see more",
         "clickDescription": "Click here to see the description",
+        "experience": "Work Experience",
+        "currently": "Currently",
+        "codetowerWorkDesc": "Led the team in carrying out projects. In the organization, it ranges from planning, project standards, agile methodologies, etc. I also help with project programming, using various technologies such as Nextjs, Django and Docker, among others.",
+        "conteWorkDesc": "I work on maintaining and implementing projects, internal and for clients, for mobile devices. From creation to publication in the main app stores such as Apple Store and Google Play",
         "_Comment5": "SECTION CONTACT",
         "contact": "Contact",
         "submitForm": "Submit the form or shoot me an email - carlosdanielf541@gmail.com",
@@ -37,6 +41,10 @@
         "viajahDesc": "I led the project, as well as implemented almost the entire API and did important parts of the frontend implementation, such as authentication and the blog. In this project we use Nextjs, Django, Docker, among other technologies. In addition to the development and leadership of the project, I also took care of the project's deployment, which was done on a VPS using Docker, with a CI/CD pipeline with gh actions and watchtower. I can be important from end to end in this project.",
         "cryptoDesc": "Project made for a selection process challenge. In this project I managed to learn many fundamental concepts of React, such as react-router-dom for routing with pure react and redux for state management and persistence. In addition, I integrated with metamask, thus being able to display the wallet ID and balance. This application's main objective is to display cryptoactive information and for this purpose I use the CoinGecko API. To better visualize the data, I used the rechart library to create graphs of the data coming from the api.",
         "etoroksDesc": "Freelance project for a sweepstakes platform for a YouTube channel. The platform allows the registration of sweepstakes and their respective achievements by the admin. It also allows users to connect using Google through Firebase Auth and register for a prize draw. On this platform, Nextjs, Firebase (firestore, auth, storage) and shadcn ui were used as component librarie.",
-        "codeTowerDesc": "Institutional website made for the junior company Code Tower. Single page, where services, about the company, articles and projects are shown. For the blogs, the Dev.to platform was used to write the articles, and in the application we consumed the api to get the data and display it. And to register projects more easily, HygraphCMS was used to manage project content, and to retrieve this data from the CSM I use GraphQL."
+        "codeTowerDesc": "Institutional website made for the junior company Code Tower. Single page, where services, about the company, articles and projects are shown. For the blogs, the Dev.to platform was used to write the articles, and in the application we consumed the api to get the data and display it. And to register projects more easily, HygraphCMS was used to manage project content, and to retrieve this data from the CSM I use GraphQL.",
+        "isaludDesc": "",
+        "erpconteDesc": "",
+        "pdvconteDesc": "",
+        "viamDesc": ""
     }
 }

@@ -4,16 +4,11 @@ import { useTranslation } from 'react-i18next';
 import { data, dataMobile } from '../data/data.js'
 import { Modal } from './Modal.jsx';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { ProjectsGrid } from './ProjectsGrid.jsx';
+import { ProjectsGrid } from './Projects/ProjectsGrid.jsx';
 
 export const Projects = () => {
   const { t } = useTranslation();
 
-  const [openModal, setOpenModal] = useState(false);
-  const [thisIndex, setThisIndex] = useState(0);
-  // projects file
-  const project = data;
-  //setProject(data);
   return (
     <div name='projects' className='w-full flex-1 text-white bg-dark'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>

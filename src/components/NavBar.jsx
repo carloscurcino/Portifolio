@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import {Code, GithubLogo, InstagramLogo, LinkedinLogo, List, X} from 'phosphor-react';
+import { Code, GithubLogo, InstagramLogo, LinkedinLogo, List, X } from 'phosphor-react';
 import BR from "../assets/br.svg"
 import EN from "../assets/gb.svg"
 import { Link } from 'react-scroll';
@@ -16,40 +16,45 @@ export const NavBar = () => {
   return (
     <div className='fixed z-10 w-full h-[80px] flex justify-between items-center px-4 bg-dark text-white'>
       <div>
-      <Code size={50}/>
+        <Code size={50} />
       </div>
 
       {/* Menu */}
-        <ul className='hidden md:flex items-center'>
-          <li>
-            <Link to="home" smooth={true} duration={500}>
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link to="about" smooth={true} offset={-20} duration={500}>
-              {t("aboutTitle")}
-            </Link>
-          </li>
-          <li>
-            <Link to="skills" smooth={true} offset={-50} duration={500}>
-              {t("skills")}
-            </Link>
-          </li>
-          <li>
-            <Link to="projects" smooth={true} offset={-70} duration={500}>
+      <ul className='hidden md:flex items-center'>
+        <li>
+          <Link to="home" smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link to="about" smooth={true} offset={-20} duration={500}>
+            {t("aboutTitle")}
+          </Link>
+        </li>
+        <li>
+          <Link to="skills" smooth={true} offset={-50} duration={500}>
+            {t("skills")}
+          </Link>
+        </li>
+        <li>
+          <Link to="experience" smooth={true} offset={-50} duration={500}>
+            {t("experience")}
+          </Link>
+        </li>
+        <li>
+          <Link to="projects" smooth={true} offset={-70} duration={500}>
             {t("projects")}
-            </Link>
-          </li>
-          <li>
-            <Link to="contact" smooth={true} offset={-50} duration={500}>
+          </Link>
+        </li>
+        <li>
+          <Link to="contact" smooth={true} offset={-50} duration={500}>
             {t("contact")}
-            </Link>
-          </li>
-          <li>
-           <Dropdown/>
-          </li>
-        </ul>
+          </Link>
+        </li>
+        <li>
+          <Dropdown />
+        </li>
+      </ul>
 
       {/* Hamburger */}
       <div className='md:hidden z-10 cursor-pointer' onClick={handleClik}>
@@ -58,34 +63,34 @@ export const NavBar = () => {
 
       {/* Mobile menu */}
       <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-dark flex flex-col justify-center items-center'}>
-          <li className='py-6 text-2xl'>
-            <Link to="home" smooth={true} duration={500} onClick={handleClik}>
-              Home
-            </Link>
-            </li>
-          <li className='py-6 text-2xl'>
-            <Link to="about" smooth={true} offset={-75} duration={500} onClick={handleClik}>
+        <li className='py-6 text-2xl'>
+          <Link to="home" smooth={true} duration={500} onClick={handleClik}>
+            Home
+          </Link>
+        </li>
+        <li className='py-6 text-2xl'>
+          <Link to="about" smooth={true} offset={-75} duration={500} onClick={handleClik}>
             {t("aboutTitle")}
-            </Link>
-          </li>
-          <li className='py-6 text-2xl'>
-            <Link to="skills" smooth={true} offset={-70} duration={500} onClick={handleClik}>
+          </Link>
+        </li>
+        <li className='py-6 text-2xl'>
+          <Link to="skills" smooth={true} offset={-70} duration={500} onClick={handleClik}>
             {t("skills")}
-            </Link>
-          </li>
-          <li className='py-6 text-2xl'>
-            <Link to="projects" smooth={true} offset={-70} duration={500} onClick={handleClik}>
-              {t("projects")}
-            </Link>
-          </li>
-          <li className='py-6 text-2xl'>
-            <Link to="contact" smooth={true} offset={-70} duration={500} onClick={handleClik}>
+          </Link>
+        </li>
+        <li className='py-6 text-2xl'>
+          <Link to="projects" smooth={true} offset={-70} duration={500} onClick={handleClik}>
+            {t("projects")}
+          </Link>
+        </li>
+        <li className='py-6 text-2xl'>
+          <Link to="contact" smooth={true} offset={-70} duration={500} onClick={handleClik}>
             {t("contact")}
-            </Link>
-          </li>
-          <li>
-            <Dropdown/>
-          </li>
+          </Link>
+        </li>
+        <li>
+          <Dropdown />
+        </li>
       </ul>
 
 
