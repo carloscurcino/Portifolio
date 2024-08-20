@@ -40,7 +40,7 @@ export const NavBar = () => {
           </Link>
         </li>
         <li>
-          <Link to="experience" smooth={true} offset={-50} duration={500}>
+          <Link to="experience" smooth={true} offset={-100} duration={500}>
             {t("experience")}
           </Link>
         </li>
