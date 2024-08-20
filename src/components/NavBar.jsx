@@ -16,16 +16,19 @@ export const NavBar = () => {
   return (
     <div className='fixed z-10 w-full h-[80px] flex justify-between items-center px-4 bg-dark text-white'>
       <div>
-        <Code size={50} />
+        {/* <Code size={50} /> */}
+        <Link to="home" className='hover:opacity-75 cursor-pointer' smooth={true} duration={500}>
+          <Code size={50} />
+        </Link>
       </div>
 
       {/* Menu */}
       <ul className='hidden md:flex items-center'>
-        <li>
+        {/* <li>
           <Link to="home" smooth={true} duration={500}>
             Home
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link to="about" smooth={true} offset={-20} duration={500}>
             {t("aboutTitle")}
