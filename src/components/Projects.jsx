@@ -31,7 +31,7 @@ export const Projects = () => {
             <ProjectsGrid project={data} />
           </TabsContent>
           <TabsContent value="mobile">Chart by market capitalization change in the last 30 days
-            <ProjectsGrid project={dataMobile} />
+            <ProjectsGrid project={dataMobile} isMobile={true} />
           </TabsContent>
         </Tabs>
       </div>

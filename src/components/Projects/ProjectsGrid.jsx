@@ -4,22 +4,22 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Modal } from '../Modal.jsx';
 
-export const ProjectsGrid = ({ project }) => {
+export const ProjectsGrid = ({ project, isMobile }) => {
   const { t } = useTranslation();
 
   const [openModal, setOpenModal] = useState(false);
   const [thisIndex, setThisIndex] = useState(0);
   console.log(project)
   return (
-    <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+    <div className={`grid sm:grid-cols-2 ${isMobile ? 'md:grid-cols-4' : 'md:grid-cols-3'} gap-4`}>
 
       {/* Gird Item */}
       {project.toReversed().map((item, index) => (
         <div
           key={index}
           style={{ backgroundImage: `url(${item.image})` }}
-          className="shadow-lg shadow-[#040c16] group container rounded-md 
-        flex flex-col justify-center text-center  mx-auto content-div overflow-hidden"
+          className={`shadow-lg shadow-[#040c16] group container rounded-md flex flex-col justify-center text-center mx-auto content-div overflow-hidden
+           ${isMobile ? 'min-w-60 md:w-60 max-sm:w-full min-h-[582px] md:min-h-[482px] md:h-[482px]' : ''}`}
         >
           {/* Hover effect for images */}
           <div className="opacity-0 group-hover:opacity-100 flex flex-col group justify-center align-middle items-center pt-6">
