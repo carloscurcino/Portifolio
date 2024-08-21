@@ -17,7 +17,7 @@ export const Experience = () => {
 
                 <div className=''>
                     {workExperience.toReversed().map((work) => (
-                        <div className='max-w-[1000px] my-8 mx-auto p-4 rounded-xl hover:bg-black/20 hover:border-2 hover:border-cyan-400/20'>
+                        <div className='max-w-[1000px] mx-auto p-4 my-2 rounded-xl hover:bg-black/20'> {/*hover:border-2 hover:border-cyan-400/20 // hover:outline-2 hover:outline-cyan-400/20 hover:outline-double*/}
                             {/* Card */}
                             <div className='flex items-center gap-4'>
                                 {/* <img className='w-16 h-16 rounded-full' src='https://via.placeholder.com/150' alt='Company Logo' /> */}
@@ -31,7 +31,7 @@ export const Experience = () => {
                             <p className='text-lg'>
                                 {t(work.description)}
                             </p>
-                            <div className='flex flex-row gap-2'>
+                            <div className='flex flex-row gap-2 mt-2'>
                                 {
                                     work.stack.map(stack => <img className='w-[25px]' src={stack} alt="" />)
                                 }
