@@ -304,10 +304,11 @@ export const dataWork = [
         position: "Diretor de Projetos",
         description: "codetowerWorkDesc",
         stack: [
-            HTML,
-            CSS,
-            JavaScript,
+            Next,
+            Django,
+            Tailwind,
             GitHub,
+            Graphql,
         ],
     },
     {
@@ -319,8 +320,9 @@ export const dataWork = [
         position: "Desenvolvedor React-Native",
         description: "conteWorkDesc",
         stack: [
-            HTML,
-            CSS,
+            ReactImg,
+            Tailwind,
+            Redux,
             JavaScript,
             GitHub,
         ],
