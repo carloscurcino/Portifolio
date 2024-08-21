@@ -1,3 +1,4 @@
+// Projects
 import CrudFull from '../assets/projects/crud-fullstack.png';
 import CrudFull2 from '../assets/projects/crud-fullstack2.png';
 import CafeChat from '../assets/projects/chatapp.png';
@@ -19,6 +20,7 @@ import Etoroks2 from '../assets/projects/etoroks2.png'
 import CodeTower from '../assets/projects/codetower.png'
 import CodeTower2 from '../assets/projects/codetower2.png'
 
+// Stacks
 const HTML = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg";
 const CSS = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
 import GitHub from '../assets/github.png';
@@ -41,6 +43,10 @@ const Firebase = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fire
 const Graphql = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/graphql/graphql-plain.svg"
 const ReactRouter = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original.svg"
 const Redux = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg"
+
+// Experience
+import CodeTowerWork from '../assets/experiences/codetower.png'
+import ConteWork from '../assets/experiences/conte.png'
 
 
 export const data = [
@@ -291,7 +297,7 @@ export const dataMobile = [
 export const dataWork = [
     {
         // id: 1,
-        image: "https://codetower.com.br/_next/image?url=%2Flogo.png&w=1920&q=75",
+        image: CodeTowerWork,
         companyName: "Code Tower EJ",
         startDate: "2022",
         finalDate: "2023",
@@ -306,7 +312,7 @@ export const dataWork = [
     },
     {
         // id: 1,
-        image: "https://contetecnologia.com.br/imgs/logoescura.png",
+        image: ConteWork,
         companyName: "Conte Tecnologia",
         startDate: "2023",
         finalDate: "",
