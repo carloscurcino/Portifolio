@@ -66,11 +66,11 @@ export const NavBar = () => {
 
       {/* Mobile menu */}
       <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-dark flex flex-col justify-center items-center'}>
-        <li className='py-6 text-2xl'>
+        {/* <li className='py-6 text-2xl'>
           <Link to="home" smooth={true} duration={500} onClick={handleClik}>
             Home
           </Link>
-        </li>
+        </li> */}
         <li className='py-6 text-2xl'>
           <Link to="about" smooth={true} offset={-75} duration={500} onClick={handleClik}>
             {t("aboutTitle")}
@@ -79,6 +79,11 @@ export const NavBar = () => {
         <li className='py-6 text-2xl'>
           <Link to="skills" smooth={true} offset={-70} duration={500} onClick={handleClik}>
             {t("skills")}
+          </Link>
+        </li>
+        <li className='py-6 text-2xl'>
+          <Link to="experience" smooth={true} offset={-100} duration={500}>
+            {t("experience")}
           </Link>
         </li>
         <li className='py-6 text-2xl'>
