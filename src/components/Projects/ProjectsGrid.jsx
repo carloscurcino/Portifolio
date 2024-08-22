@@ -52,7 +52,7 @@ export const ProjectsGrid = ({ project, isMobile }) => {
               </a>
             </div>
           </div>
-          {openModal && (index === thisIndex) && <Modal setOpenModal={setOpenModal} item={item} index={index} />}
+          {openModal && (index === thisIndex) && <Modal setOpenModal={setOpenModal} item={item} index={index} isMobile={isMobile} />}
           {openModal ? document.body.classList.add('active-modal') : document.body.classList.remove('active-modal')}
           <div className={`${!isMobile && 'h-full'} flex items-end`}>
             <div className='flex justify-center p-[5.1px] gap-1 bg-dark rounded-r-md ml-[-200px] group-hover:ml-0 duration-300'>
