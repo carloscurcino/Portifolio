@@ -1,6 +1,5 @@
 import { X } from "phosphor-react"
 import { useTranslation } from "react-i18next"
-import { Card, CardContent } from "@/components/ui/card"
 import {
     Carousel,
     CarouselContent,
