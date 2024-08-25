@@ -35,12 +35,12 @@ export const Modal = ({ setOpenModal, item, isMobile }) => {
                 )
                     : (<Carousel className={`relative z-0 flex text-center sm:max-w-[50%] max-w-full sm:h-[100%] min-h-screen sm:max-h-[650px]`}>
                         <CarouselContent className="min-h-full">
-                            {Array.from({ length: 5 }).map((_, index) => (
+                            {item.images.map((image, index) => (
                                 <CarouselItem key={index} className="min-h-full">
                                     <img
-                                        src={item.altImage}
+                                        src={image}
                                         className=" 
-                    flex text-center rounded-r-lg object-cover object-no-repeat bg-cover object-center h-[100%] sm:max-h-[650px] object-fit-cover overflow-hidden"
+                    flex text-center rounded-r-lg object-cover object-no-repeat bg-cover object-center h-full sm:max-h-[650px] w-full object-fit-cover overflow-hidden"
                                     />
                                 </CarouselItem>
                             ))}

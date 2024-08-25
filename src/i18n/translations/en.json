@@ -45,6 +45,6 @@
         "isaludDesc": "",
         "erpconteDesc": "",
         "pdvconteDesc": "",
-        "viamDesc": ""
+        "viamDesc": "I remade a native Android application in React Native, recreating all the features and interface in React-Native. In addition to the recreated functionalities, I also implemented new features, such as biometric login, both facial on IOS and Digital on Android, in addition to implementing an alert and notification system."
     }
 }
