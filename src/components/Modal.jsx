@@ -13,9 +13,9 @@ export const Modal = ({ setOpenModal, item, isMobile }) => {
     const { t } = useTranslation()
     return (
         // Modal Background
-        <div className="w-full h-screen bg-[rgba(49,49,49,0.3)] fixed flex justify-center items-center z-20 top-0 left-0 right-0 bottom-0 text-black">
+        <div className={`w-full h-screen max-sm:overflow-scroll bg-[rgba(49,49,49,0.3)] fixed flex justify-center items-center z-20 top-0 left-0 right-0 bottom-0 text-black`}>
             {/* Modal Container */}
-            <div className={`w-[700px] h-[650px] rounded-[12px] bg-white shadow-md flex ${isMobile ? 'flex-row-reverse' : 'flex-col'}`}>
+            <div className={`max-w-[700px] h-[650px] max-sm:h-[90%] max-sm:overflow-scroll flex-1 rounded-[12px] bg-white shadow-md flex ${isMobile ? 'sm:flex-row-reverse flex-col' : 'flex-col'}`}>
                 <div className="z-30 flex justify-end">
                     <X size={25} weight="bold" className="text-white bg-[crimson] hover:bg-[#b91133]/80 p-1 rounded-lg mr-2 cursor-pointer fixed -ml-1 mt-1" onClick={() => { setOpenModal(false) }} />
                 </div>
@@ -33,14 +33,14 @@ export const Modal = ({ setOpenModal, item, isMobile }) => {
                     flex flex-col justify-center text-center ${isMobile ? 'rounded-r-lg' : 'rounded-t-lg'} mx-auto bg-no-repeat bg-cover bg-center h-[100%] overflow-hidden`}
                     ></div>
                 )
-                    : (<Carousel className={`relative z-0 flex text-center max-w-[50%] h-[100%]`}>
+                    : (<Carousel className={`relative z-0 flex text-center sm:max-w-[50%] max-w-full sm:h-[100%] min-h-screen sm:max-h-[650px]`}>
                         <CarouselContent className="min-h-full">
                             {Array.from({ length: 5 }).map((_, index) => (
                                 <CarouselItem key={index} className="min-h-full">
                                     <img
                                         src={item.altImage}
                                         className=" 
-                    flex text-center rounded-r-lg object-cover object-no-repeat bg-cover object-center h-[100%] overflow-hidden"
+                    flex text-center rounded-r-lg object-cover object-no-repeat bg-cover object-center h-[100%] sm:max-h-[650px] object-fit-cover overflow-hidden"
                                     />
                                 </CarouselItem>
                             ))}
@@ -48,7 +48,7 @@ export const Modal = ({ setOpenModal, item, isMobile }) => {
                         <CarouselPrevious />
                         <CarouselNext />
                     </Carousel>)}
-                <div className={`flex h-full flex-col ${isMobile && 'max-w-[50%] mt-8'}`}>
+                <div className={`flex h-full flex-col ${isMobile && 'sm:max-w-[50%] max-w-full mt-8'}`}>
                     <div className="inline-block text-center mt-2 text-[22px] font-mono font-bold">
                         <h1>{item.name}</h1>
                     </div>
