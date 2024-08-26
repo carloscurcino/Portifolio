@@ -20,6 +20,20 @@ import Etoroks2 from '../assets/projects/etoroks2.png'
 import CodeTower from '../assets/projects/codetower.png'
 import CodeTower2 from '../assets/projects/codetower2.png'
 
+// Projects Mobile
+import pdvClientes from '../assets/projects/mobile/pdv/clientes.png'
+import pdvDrawer from '../assets/projects/mobile/pdv/drawer.png'
+import pdvHome from '../assets/projects/mobile/pdv/home.png'
+import pdvNovaVenda from '../assets/projects/mobile/pdv/novavenda.png'
+import pdvVendas from '../assets/projects/mobile/pdv/vendas.png'
+
+import viamHome from '../assets/projects/mobile/viam/home.png'
+import viamMenu from '../assets/projects/mobile/viam/menu.png'
+import viamConfirmacao from '../assets/projects/mobile/viam/confirmacao.png'
+import viamJornada from '../assets/projects/mobile/viam/menujornada.png'
+import viamDirecao from '../assets/projects/mobile/viam/direcao.png'
+import viamRefeicao from '../assets/projects/mobile/viam/refeicao.png'
+
 // Stacks
 const HTML = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg";
 const CSS = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
@@ -235,8 +249,13 @@ export const dataMobile = [
     {
         id: 1,
         name: "Isalud",
-        image: Pomodoro,
-        altImage: Pomodoro,
+        images: [
+            pdvHome,
+            pdvDrawer,
+            pdvVendas,
+            pdvNovaVenda,
+            pdvClientes
+        ],
         github: "https://github.com/carloscurcino/Pomodoro-Timer",
         live: "https://carloscurcino.github.io/Pomodoro-Timer/",
         description: "isaludDesc",
@@ -249,8 +268,13 @@ export const dataMobile = [
     }, {
         id: 2,
         name: "ERP Conte Tecnologia",
-        image: Pomodoro,
-        altImage: Pomodoro,
+        images: [
+            pdvHome,
+            pdvDrawer,
+            pdvVendas,
+            pdvNovaVenda,
+            pdvClientes
+        ],
         github: "https://github.com/carloscurcino/Pomodoro-Timer",
         live: "https://carloscurcino.github.io/Pomodoro-Timer/",
         description: "erpconteDesc",
@@ -264,8 +288,13 @@ export const dataMobile = [
     {
         id: 3,
         name: "PDV Conte",
-        image: Pomodoro,
-        altImage: Pomodoro,
+        images: [
+            pdvHome,
+            pdvDrawer,
+            pdvVendas,
+            pdvNovaVenda,
+            pdvClientes
+        ],
         github: "https://github.com/carloscurcino/Pomodoro-Timer",
         live: "https://carloscurcino.github.io/Pomodoro-Timer/",
         description: "pdvconteDesc",
@@ -280,8 +309,14 @@ export const dataMobile = [
     {
         id: 4,
         name: "viaM",
-        image: Pomodoro,
-        altImage: Pomodoro,
+        images: [
+            viamHome,
+            viamMenu,
+            viamConfirmacao,
+            viamJornada,
+            viamDirecao,
+            viamRefeicao,
+        ],
         github: "https://github.com/carloscurcino/Pomodoro-Timer",
         live: "https://carloscurcino.github.io/Pomodoro-Timer/",
         description: "viamDesc",
