@@ -33,14 +33,14 @@ export const Modal = ({ setOpenModal, item, isMobile }) => {
                     flex flex-col justify-center text-center ${isMobile ? 'rounded-r-lg' : 'rounded-t-lg'} mx-auto bg-no-repeat bg-cover bg-center h-[100%] overflow-hidden`}
                     ></div>
                 )
-                    : (<Carousel className={`relative z-0 flex text-center sm:max-w-[50%] max-w-full sm:h-[100%] min-h-screen sm:max-h-[650px]`}>
-                        <CarouselContent className="min-h-full">
+                    : (<Carousel className={`relative z-0 flex-1 flex text-center sm:max-w-[50%] max-w-full sm:h-[100%] min-h-screen sm:max-h-[650px]`}>
+                        <CarouselContent className="min-h-full flex-1 h-full">
                             {item.images.map((image, index) => (
-                                <CarouselItem key={index} className="min-h-full">
+                                <CarouselItem key={index} className="min-h-full flex-grow">
                                     <img
                                         src={image}
-                                        className=" 
-                    flex text-center rounded-r-lg object-cover object-no-repeat bg-cover object-center h-full sm:max-h-[650px] w-full object-fit-cover overflow-hidden"
+                                        className="
+                    flex text-center rounded-r-lg object-contain object-no-repeat object-center mx-auto max-sm:min-h-full flex-1 max-sm:h-full sm:max-h-[650px]  min-w-full sm:overflow-hidden"
                                     />
                                 </CarouselItem>
                             ))}
