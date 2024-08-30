@@ -21,11 +21,11 @@ import CodeTower from '../assets/projects/codetower.png'
 import CodeTower2 from '../assets/projects/codetower2.png'
 
 // Projects Mobile
-import pdvClientes from '../assets/projects/mobile/pdv/clientes.png'
-import pdvDrawer from '../assets/projects/mobile/pdv/drawer.png'
-import pdvHome from '../assets/projects/mobile/pdv/home.png'
-import pdvNovaVenda from '../assets/projects/mobile/pdv/novavenda.png'
-import pdvVendas from '../assets/projects/mobile/pdv/vendas.png'
+import erpClientes from '../assets/projects/mobile/erp/clientes.png'
+import erpDrawer from '../assets/projects/mobile/erp/drawer.png'
+import erpHome from '../assets/projects/mobile/erp/home.png'
+import erpNovaVenda from '../assets/projects/mobile/erp/novavenda.png'
+import erpVendas from '../assets/projects/mobile/erp/vendas.png'
 
 import viamHome from '../assets/projects/mobile/viam/home.png'
 import viamMenu from '../assets/projects/mobile/viam/menu.png'
@@ -250,11 +250,11 @@ export const dataMobile = [
         id: 1,
         name: "Isalud",
         images: [
-            pdvHome,
-            pdvDrawer,
-            pdvVendas,
-            pdvNovaVenda,
-            pdvClientes
+            erpHome,
+            erpDrawer,
+            erpVendas,
+            erpNovaVenda,
+            erpClientes
         ],
         github: "https://github.com/carloscurcino/Pomodoro-Timer",
         live: "https://carloscurcino.github.io/Pomodoro-Timer/",
@@ -269,11 +269,11 @@ export const dataMobile = [
         id: 2,
         name: "ERP Conte Tecnologia",
         images: [
-            pdvHome,
-            pdvDrawer,
-            pdvVendas,
-            pdvNovaVenda,
-            pdvClientes
+            erpHome,
+            erpDrawer,
+            erpVendas,
+            erpNovaVenda,
+            erpClientes
         ],
         github: "https://github.com/carloscurcino/Pomodoro-Timer",
         live: "https://carloscurcino.github.io/Pomodoro-Timer/",
@@ -289,11 +289,11 @@ export const dataMobile = [
         id: 3,
         name: "PDV Conte",
         images: [
-            pdvHome,
-            pdvDrawer,
-            pdvVendas,
-            pdvNovaVenda,
-            pdvClientes
+            erpHome,
+            erpDrawer,
+            erpVendas,
+            erpNovaVenda,
+            erpClientes
         ],
         github: "https://github.com/carloscurcino/Pomodoro-Timer",
         live: "https://carloscurcino.github.io/Pomodoro-Timer/",

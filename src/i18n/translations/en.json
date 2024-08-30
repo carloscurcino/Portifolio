@@ -44,7 +44,7 @@
         "codeTowerDesc": "Institutional website made for the junior company Code Tower. Single page, where services, about the company, articles and projects are shown. For the blogs, the Dev.to platform was used to write the articles, and in the application we consumed the api to get the data and display it. And to register projects more easily, HygraphCMS was used to manage project content, and to retrieve this data from the CSM I use GraphQL.",
         "isaludDesc": "",
         "erpconteDesc": "",
-        "pdvconteDesc": "",
+        "pdvconteDesc": "Construction and maintenance of a point of sale (POS) application. Application integrated with ERP, where it is possible to sell products, issue invoices and non-tax coupons, in addition to managing cash. It also connects to the integrated printer of the Elgin Mini PDV M10 device, automatically printing invoices.",
         "viamDesc": "I remade a native Android application in React Native, recreating all the features and interface in React-Native. In addition to the recreated functionalities, I also implemented new features, such as biometric login, both facial on IOS and Digital on Android, in addition to implementing an alert and notification system."
     }
 }
