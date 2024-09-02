@@ -33,14 +33,14 @@ export const Modal = ({ setOpenModal, item, isMobile }) => {
                     flex flex-col justify-center text-center ${isMobile ? 'rounded-r-lg' : 'rounded-t-lg'} mx-auto bg-no-repeat bg-cover bg-center h-[100%] overflow-hidden`}
                     ></div>
                 )
-                    : (<Carousel className={`relative z-0 flex-1 flex text-center sm:max-w-[50%] max-w-full sm:h-[100%] min-h-screen sm:max-h-[650px]`}>
-                        <CarouselContent className="min-h-full flex-1 h-full">
+                    : (<Carousel className={`relative z-0 rounded-r-lg flex text-center w-full flex-grow sm:max-w-max sm:h-[100%] min-h-full sm:max-h-[650px]`}>
+                        <CarouselContent className="min-h-full h-full">
                             {item.images.map((image, index) => (
-                                <CarouselItem key={index} className="min-h-full flex-grow">
+                                <CarouselItem key={index} className="min-h-full rounded-r-lg bg-black">
                                     <img
                                         src={image}
                                         className="
-                    flex text-center rounded-r-lg object-contain object-no-repeat object-center mx-auto max-sm:min-h-full flex-1 max-sm:h-full sm:max-h-[650px]  min-w-full sm:overflow-hidden"
+                    flex text-center rounded-r-lg object-scale-down object-no-repeat object-center mx-auto max-sm:min-h-full w-full flex-1 max-sm:h-full sm:max-h-[650px]  min-w-full overflow-hidden"
                                     />
                                 </CarouselItem>
                             ))}
@@ -48,7 +48,7 @@ export const Modal = ({ setOpenModal, item, isMobile }) => {
                         <CarouselPrevious />
                         <CarouselNext />
                     </Carousel>)}
-                <div className={`flex h-full flex-col ${isMobile && 'sm:max-w-[50%] max-w-full mt-8'}`}>
+                <div className={`flex h-full flex-col ${isMobile && 'mt-8 w-full'}`}>
                     <div className="inline-block text-center mt-2 text-[22px] font-mono font-bold">
                         <h1>{item.name}</h1>
                     </div>
