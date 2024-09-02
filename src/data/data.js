@@ -27,6 +27,13 @@ import erpHome from '../assets/projects/mobile/erp/home.png'
 import erpNovaVenda from '../assets/projects/mobile/erp/novavenda.png'
 import erpVendas from '../assets/projects/mobile/erp/vendas.png'
 
+import pdvLogin from '../assets/projects/mobile/pdv/login.png'
+import pdvVenda from '../assets/projects/mobile/pdv/venda.png'
+import pdvPagamento from '../assets/projects/mobile/pdv/pagamento.png'
+import pdvDrawer from '../assets/projects/mobile/pdv/drawer.png'
+import pdvCaixa from '../assets/projects/mobile/pdv/caixa.png'
+import pdvLancamentos from '../assets/projects/mobile/pdv/lancamento.png'
+
 import viamHome from '../assets/projects/mobile/viam/home.png'
 import viamMenu from '../assets/projects/mobile/viam/menu.png'
 import viamConfirmacao from '../assets/projects/mobile/viam/confirmacao.png'
@@ -289,11 +296,12 @@ export const dataMobile = [
         id: 3,
         name: "PDV Conte",
         images: [
-            erpHome,
-            erpDrawer,
-            erpVendas,
-            erpNovaVenda,
-            erpClientes
+            pdvLogin,
+            pdvVenda,
+            pdvPagamento,
+            pdvDrawer,
+            pdvCaixa,
+            pdvLancamentos
         ],
         github: "https://github.com/carloscurcino/Pomodoro-Timer",
         live: "https://carloscurcino.github.io/Pomodoro-Timer/",
