@@ -24,7 +24,7 @@ export const Experience = () => {
                                 <img className='w-16 h-16 rounded-full object-contain' src={work.image} alt='Company Logo' />
                                 <div>
                                     <h3 className='text-lg font-bold'>{work.companyName}</h3>
-                                    <p className='text-gray'>{work.position}</p>
+                                    <p className='text-gray'>{t(work.position)}</p>
                                     <p className='text-sm'>{work.startDate} - {work.finalDate.length > 0 ? work.finalDate : t("currently")}</p>
                                 </div>
                             </div>
