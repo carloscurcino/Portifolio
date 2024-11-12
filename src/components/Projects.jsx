@@ -27,10 +27,10 @@ export const Projects = () => {
             <TabsTrigger value="web" onClick={() => console.log("web")}>Web</TabsTrigger>
             <TabsTrigger value="mobile" onClick={() => console.log("mobile")}>Mobile</TabsTrigger>
           </TabsList>
-          <TabsContent value="web">Chart by price change in the last 30 days
+          <TabsContent value="web">
             <ProjectsGrid project={data} />
           </TabsContent>
-          <TabsContent value="mobile">Chart by market capitalization change in the last 30 days
+          <TabsContent value="mobile">
             <ProjectsGrid project={dataMobile} isMobile={true} />
           </TabsContent>
         </Tabs>
