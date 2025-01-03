@@ -41,6 +41,13 @@ import viamJornada from '../assets/projects/mobile/viam/menujornada.png'
 import viamDirecao from '../assets/projects/mobile/viam/direcao.png'
 import viamRefeicao from '../assets/projects/mobile/viam/refeicao.png'
 
+import isaludLogin from '../assets/projects/mobile/isalud/login.png'
+import isaludCadastro from '../assets/projects/mobile/isalud/cadastro.png'
+import isaludFeed from '../assets/projects/mobile/isalud/feed.png'
+import isaludMenu from '../assets/projects/mobile/isalud/menu.png'
+import isaludPerfil from '../assets/projects/mobile/isalud/perfil.png'
+import isaludProfissionais from '../assets/projects/mobile/isalud/profissionais.png'
+import isaludServicos from '../assets/projects/mobile/isalud/serviços.png'
 // Stacks
 const HTML = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg";
 const CSS = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
@@ -257,11 +264,13 @@ export const dataMobile = [
         id: 1,
         name: "Isalud",
         images: [
-            erpHome,
-            erpDrawer,
-            erpVendas,
-            erpNovaVenda,
-            erpClientes
+            isaludFeed,
+            isaludMenu,
+            isaludPerfil,
+            isaludProfissionais,
+            isaludServicos,
+            isaludCadastro,
+            isaludLogin
         ],
         github: "https://github.com/carloscurcino/Pomodoro-Timer",
         live: "https://carloscurcino.github.io/Pomodoro-Timer/",
