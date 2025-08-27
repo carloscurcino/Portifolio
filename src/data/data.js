@@ -19,6 +19,8 @@ import Etoroks from '../assets/projects/etoroks.png'
 import Etoroks2 from '../assets/projects/etoroks2.png'
 import CodeTower from '../assets/projects/codetower.png'
 import CodeTower2 from '../assets/projects/codetower2.png'
+import Scanfitlp from '../assets/projects/scanfitlandingpage.png'
+import Scanfitlp2 from '../assets/projects/scanfitlandingpage.png'
 
 // Projects Mobile
 import erpClientes from '../assets/projects/mobile/erp/clientes.png'
@@ -253,6 +255,20 @@ export const data = [
         stack: [
             Next,
             Graphql,
+            Tailwind,
+            GitHub
+        ]
+    },
+    {
+        id: 12,
+        name: "Scan Fit",
+        image: Scanfitlp,
+        altImage: Scanfitlp2,
+        github: "",
+        live: "https://scanfit.vercel.app/",
+        description: "scanFitDesc",
+        stack: [
+            Next,
             Tailwind,
             GitHub
         ]
