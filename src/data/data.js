@@ -21,6 +21,9 @@ import CodeTower from '../assets/projects/codetower.png'
 import CodeTower2 from '../assets/projects/codetower2.png'
 import Scanfitlp from '../assets/projects/scanfitlandingpage.png'
 import Scanfitlp2 from '../assets/projects/scanfitlandingpage.png'
+import gwwms1 from '../assets/projects/gwwms1.png'
+import gwwms2 from '../assets/projects/gwwms2.png'
+import gwwmslogin from '../assets/projects/gwwmslogin.png'
 
 // Projects Mobile
 import erpClientes from '../assets/projects/mobile/erp/clientes.png'
@@ -59,6 +62,7 @@ import Metamask from '../assets/metamask.png';
 
 
 const JavaScript = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg";
+const TypeScript = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg";
 const ReactImg = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg";
 //const GitHub = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" ;
 const Node = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg";
@@ -77,6 +81,9 @@ const Redux = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/r
 // Experience
 import CodeTowerWork from '../assets/experiences/codetower.png'
 import ConteWork from '../assets/experiences/conte.png'
+import GwWork from '../assets/experiences/gwwirelesslogo.png'
+import GwLogo from '../assets/experiences/gwlogo.jpg'
+import { Dock } from 'lucide-react';
 
 
 export const data = [
@@ -272,7 +279,26 @@ export const data = [
             Tailwind,
             GitHub
         ]
-    }
+    },
+    {
+        id: 13,
+        name: "WMS GW Wireless",
+        image: gwwms1,
+        altImage: gwwms1,
+        images: [
+            gwwms1,
+            gwwms2,
+            gwwmslogin
+        ],
+        github: "",
+        live: "",
+        description: "gWMSDesc",
+        stack: [
+            Next,
+            Tailwind,
+            GitHub
+        ]
+    },
 ]
 
 export const dataMobile = [
@@ -400,15 +426,32 @@ export const dataWork = [
         image: ConteWork,
         companyName: "Conte Tecnologia",
         startDate: "05/2024",
-        finalDate: "",
+        finalDate: "01/2026",
         position: "conteWorkPosition",
         description: "conteWorkDesc",
         stack: [
             ReactImg,
             Tailwind,
             Redux,
-            JavaScript,
+            TypeScript,
             GitHub,
+        ],
+    },
+     {
+        // id: 1,
+        image: GwLogo,
+        companyName: "GW Wireless",
+        startDate: "02/2026",
+        finalDate: "05/2026",
+        position: "gwwirelessPosition",
+        description: "gwwirelessDesc",
+        stack: [
+            Next,
+            Tailwind,
+            TypeScript,
+            GitHub,
+            MYSQL,
+            Docker
         ],
     }
 ]
