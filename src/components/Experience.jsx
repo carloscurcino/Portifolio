@@ -21,7 +21,7 @@ export const Experience = () => {
                             {/* Card */}
                             <div className='flex items-center gap-4'>
                                 {/* <img className='w-16 h-16 rounded-full' src='https://via.placeholder.com/150' alt='Company Logo' /> */}
-                                <img className='w-16 h-16 rounded-full object-contain' src={work.image} alt='Company Logo' />
+                                <img className='w-16 h-16 rounded-full bg-primary object-contain' src={work.image} alt='Company Logo' />
                                 <div>
                                     <h3 className='text-lg font-bold'>{work.companyName}</h3>
                                     <p className='text-gray'>{t(work.position)}</p>

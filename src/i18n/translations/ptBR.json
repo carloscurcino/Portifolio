@@ -26,6 +26,8 @@
         "codetowerWork2Position": "Desenvolvedor Full Stack",
         "conteWorkDesc": "Trabalho na manutenção e implementação de projetos, internos e para clientes, para dispositivos móveis. Desde a criação até a publicação nas principais lojas de aplicativos, como apple store e google play",
         "conteWorkPosition": "Desenvolvedor React-Native",
+        "gwwirelessDesc": "Trabalho na manutenção e implementação de projetos de sistemas internos de WMS e sistemas de gestão. Além de Devops dos projetos, utilizando docker e o servidor da empresa.",
+        "gwwirelessPosition": "Desenvolvedor Full Stack Jr",
         "_Comment5": "SECTION CONTACT",
         "contact": "Contato",
         "submitForm": "Preencha o formulário ou me envie um email - carlosdanielf541@gmail.com",
@@ -50,6 +52,6 @@
         "isaludDesc": "Manutenção, implementação de novas funcionalidades, como chat e notificações e atualizações visuais no aplicativo. O aplicativo consiste em um sistema gerenciador de agendamento entre médico e paciente, onde pacientes podem marcar consultas, além disso conta com uma rede social voltada à saúde.",
         "erpconteDesc": "Aplicativo mobile para o ERP da empresa Conte Tecnologia, permitido que os usuários tenham a praticidade para gerenciar o negocio de qualquer lugar. Atuo fazendo a manutenção e implementando novas funcionalidades e correções.",
         "pdvconteDesc": "Construção e manutenção de um aplicativo para ponto de vendas(PDV). Aplicativo integrado com ERP, onde é possível fazer vendas de produtos, emitir nota fiscal e cupom não fiscal, além de gerenciar o caixa. Além disso tem conexão com a impressora integrada do dispositivo Elgin Mini PDV M10, fazendo impressão automática das notas fiscais.",
-        "viamDesc": "Refiz um aplicativo android nativo em React Native, recriando todas as funcionalidades e interface em React-Native. Além das funcionalidades recriadas, também implementei novas features, como login por biometria, tanto facial no IOS, quanto Digital no Android, além de implementar um sistema de alertas e notificações."
-    }
+        "viamDesc": "Refiz um aplicativo android nativo em React Native, recriando todas as funcionalidades e interface em React-Native. Além das funcionalidades recriadas, também implementei novas features, como login por biometria, tanto facial no IOS, quanto Digital no Android, além de implementar um sistema de alertas e notificações.",
+        "gWMSDesc": "Projeto para a empresa GW Wireless, onde fiz manutenção e novas implementações para sistema de gestão WMS. O projeto envolveu a criação de uma interface intuitiva e integração com sistemas existentes.Implementação de sistema de conferencia de pedidos. Além de integração e impressão de etiquetas com impressora térmica."}
 }

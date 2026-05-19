@@ -26,6 +26,8 @@
         "codetowerWork2Position": "Full Stack Developer",
         "conteWorkDesc": "I work on maintaining and implementing projects, internal and for clients, for mobile devices. From creation to publication in the main app stores such as Apple Store and Google Play",
         "conteWorkPosition": "React-Native Developer",
+        "gwwirelessDesc": "I work on maintaining and implementing projects of internal WMS systems and management systems. In addition to Devops of the projects, using docker and the company's server.",
+        "gwwirelessPosition": "Full Stack Jr Developer",
         "_Comment5": "SECTION CONTACT",
         "contact": "Contact",
         "submitForm": "Submit the form or shoot me an email - carlosdanielf541@gmail.com",
@@ -50,6 +52,7 @@
         "isaludDesc": "Maintenance, implementation of new functions such as chat and notification and current app views. The application consists of a scheduling system between the doctor and the patient, so that patients can register appointments, at the same time as it has a social network focused on health.",
         "erpconteDesc": "Mobile application for Conte Tecnologia's ERP, allowing users to have the convenience of managing their business from anywhere. I work on maintenance and implementing new features and corrections.",
         "pdvconteDesc": "Construction and maintenance of a point of sale (POS) application. Application integrated with ERP, where it is possible to sell products, issue invoices and non-tax coupons, in addition to managing cash. It also connects to the integrated printer of the Elgin Mini PDV M10 device, automatically printing invoices.",
-        "viamDesc": "I remade a native Android application in React Native, recreating all the features and interface in React-Native. In addition to the recreated functionalities, I also implemented new features, such as biometric login, both facial on IOS and Digital on Android, in addition to implementing an alert and notification system."
+        "viamDesc": "I remade a native Android application in React Native, recreating all the features and interface in React-Native. In addition to the recreated functionalities, I also implemented new features, such as biometric login, both facial on IOS and Digital on Android, in addition to implementing an alert and notification system.",
+        "gWMSDesc": "Project for GW Wireless company, where I did maintenance and new implementations for the WMS management system. The project involved creating an intuitive interface and integrating with existing systems."
     }
 }
